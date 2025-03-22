@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --fonte: "Open Sans", sans-serif;
+  --cor-principal: #3674b5;
+  --cor-secundaria: #578fca;
+  --cor-terciaria: #a1e3f9;
+  --cor-quartenaria: #d1f8ef;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.cabecalho_menu {
+  background-color: var(--cor-secundaria);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.imagem_logo {
+  width: 20em;
+  margin-right: 30rem;
+}
+.links_cabecalho {
+  display: flex;
+  justify-content: end;
+  gap: 10rem;
+}
+.links_cabecalho a {
+  text-decoration: none;
+  font-family: var(--fonte);
+  weight: 800;
+  font-size: 24px;
+  color: var(--cor-quartenaria);
+}
+.links_cabecalho :hover {
+  text-decoration: underline;
+}
+body {
+  background-color: var(--cor-principal);
+}
+.container {
+  font-family: var(--fonte);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  padding: 0;
+}
