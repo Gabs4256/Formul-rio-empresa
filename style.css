@@ -10,7 +10,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 .cabecalho_menu {
   background-color: var(--cor-secundaria);
@@ -19,13 +19,13 @@
   padding: 1rem;
 }
 .imagem_logo {
-  width: 20em;
+  width: 15em;
   margin-right: 30rem;
 }
 .links_cabecalho {
   display: flex;
-  justify-content: end;
-  gap: 10rem;
+  justify-content: space-between;
+  align-items: center;
 }
 .links_cabecalho a {
   text-decoration: none;
@@ -47,5 +47,11 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 10rem;
-  padding: 0;
+  padding: 2rem;
+  background-color: var(--cor-secundaria);
+  border: 2px solid var(--cor-terciaria);
+  border-radius: 15px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
